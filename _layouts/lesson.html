@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article>
+  <p><strong>{{ page.phase }}</strong></p>
+  <h1>{{ page.title }}</h1>
+  <p><em>{{ page.summary }}</em></p>
+
+  {{ content }}
+
+  {% if page.repo %}
+  <p><a href="{{ page.repo }}">Code de la leçon sur GitHub</a></p>
+  {% endif %}
+</article>

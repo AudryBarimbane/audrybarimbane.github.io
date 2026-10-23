@@ -1,0 +1,16 @@
+- id: maths
+  title: Maths pour le ML
+  source: Perso
+  description: Les outils mathématiques derrière les modèles.
+
+- id: ml
+  title: Machine Learning
+  source: ML Zoomcamp
+  repo: https://github.com/DataTalksClub/machine-learning-zoomcamp
+  description: De la régression au déploiement de modèles.
+
+- id: trading
+  title: Analyse de marchés et trading algorithmique
+  source: Stock Markets Analytics Zoomcamp, PythonInvest
+  repo: https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp
+  description: Données de prix, séries temporelles, stratégies, simulation.

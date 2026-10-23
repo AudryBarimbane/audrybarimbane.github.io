@@ -4,3 +4,18 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+collections:
+  lessons:
+    output: true
+    permalink: /lessons/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: lessons
+    values:
+      layout: lesson
+
+header_pages:
+  - learning-paths.md
